@@ -10,7 +10,7 @@ async def anything(url):
         await webhook.send(embed=embed, username="Richard Web")
         
 if __name__ == "__main__":
-    url = "https://discord.com/api/webhooks/1038811426304827492/nmEARi892tDLS0Xcf7BZImtUkh7yAKgUR244yA3LiU6jC2ekpW7YDY6pStVvZ2TMZwYw"
+    url = "https://discord.com/api/webhooks/1280236549912662127/Kdru2e8zgfpNvA-mzRPUPyiN7WK_Ng4m0mOPxekEeke_AJaBtdDuFvkZ6I9A2UsRfqHR"
 
     loop = asyncio.new_event_loop()
     loop.run_until_complete(anything(url))
